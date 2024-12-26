@@ -1,0 +1,2325 @@
+!SESSION 2024-12-26 14:40:49.019 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-26 14:40:52.317
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-26 14:44:12.653
+!MESSAGE Logback config file: D:\SpringProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-12-26 14:44:13.399
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-26 14:44:13.399
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-12-26 14:44:13.912
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-26 14:44:13.912
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2024-12-26 14:44:18.489
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-26 14:44:19.956
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.buildship.core 2 0 2024-12-26 14:44:20.220
+!MESSAGE Could not load Gradle version information
+!STACK 0
+org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:167)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:111)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.UnknownHostException: services.gradle.org
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1252)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:164)
+	... 4 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:44:41.862
+!MESSAGE Classpath changed for project: springbootMvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:44:46.765
+!MESSAGE Classpath changed for project: springbootMvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:44:46.779
+!MESSAGE Boot project ADDED: springbootMvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:44:46.779
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:44:46.807
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-26 14:44:46.832
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\spring software\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/SpringProject/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1735204486831
+-Dlanguageserver.hover-timeout=225
+-jar
+D:\spring software\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:44:46.832
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-26 14:44:46.843
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3376
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:44:47.782
+!MESSAGE Classpath changed for project: springbootMvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:44:50.889
+!MESSAGE Classpath changed for project: springbootMvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:44:58.332
+!MESSAGE Classpath changed for project: springbootMvcemp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:45:02.131
+!MESSAGE Classpath changed for project: springbootMvcemp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:45:02.133
+!MESSAGE Boot project ADDED: springbootMvcemp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 14:45:06.077
+!MESSAGE Classpath changed for project: springbootMvcemp
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-26 14:51:24.709
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-12-26 14:54:57.106
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.sathya.springmvc.controller;
+
+import java.util.HashMap;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sathya.springmvc.entity.Productentity;
+import com.sathya.springmvc.model.Productmodel;
+import com.sathya.springmvc.service.Service;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class Testcontroller {
+	@Autowired
+	Service service;
+	
+	@GetMapping("/test")
+	public String greet() {
+		return "myview";
+	}
+/*@GetMapping("/productform")
+public String getproductform()
+{
+	return "Add-product";
+	
+}*/
+	@GetMapping("/productform")
+	public String getproductform()
+@PostMapping("/saveproduct")
+public String saveproduct(@Valid Productmodel productmodel,BindingResult bindingResult,Model model) {
+	HashMap<String, String>validationerrors=new HashMap<String,String>();
+	if(bindingResult.hasErrors()) {
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
+			validationerrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		model.addAttribute( "validationerrors",validationerrors);
+		return "Add-product";
+	}
+
+	service.saveproductdetails(productmodel);
+	return "redirect:/getallproducts";
+}
+/*@PostMapping("/saveproduct")
+public String saveproduct(Productmodel productmodel)
+{
+	service.saveproductdetails(productmodel);
+	System.out.print(productmodel);
+	return "success";
+}*/
+@GetMapping("/getallproducts")
+public String getallproducts(Model model)
+{
+	List<Productentity> product=service.getallproducts();
+	model.addAttribute("Products", product);
+	return "product-list";
+}
+@GetMapping("/getserchform")
+public String getserchform(){
+	return "search.product";
+	
+}
+@PostMapping("/searchbyid")
+public String searchbyid(@RequestParam long id,Model model) {
+	
+	Productentity product = service.searchById(id);
+	model.addAttribute("product", product);
+	return "search.product";
+}
+@GetMapping("/delete/{id}")
+public String deleteproductbyid(@PathVariable long id) {
+	
+	service.deleteproductbyid(id);
+	
+	return "redirect:/getallproducts";
+}
+@GetMapping("/edit/{id}")
+public String editbyproductid(@PathVariable long id,Model model) {
+	
+	Productmodel productmodel= service.getproductbyid(id);
+	model.addAttribute("Productmodel",productmodel); 
+	model.addAttribute("id",id);
+	return "edit-product";
+}
+@PostMapping("/editbyproductid/{id}")
+public String updateproduct(@PathVariable long id,Productmodel productmodel) {
+	service.updateproduct(id,productmodel);
+	return "redirect:/getallproducts";
+	
+}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-12-26 14:54:57.109
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-26 14:54:57.111
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-12-26 14:54:58.808
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.sathya.springmvc.controller;
+
+import java.util.HashMap;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sathya.springmvc.entity.Productentity;
+import com.sathya.springmvc.model.Productmodel;
+import com.sathya.springmvc.service.Service;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class Testcontroller {
+	@Autowired
+	Service service;
+	
+	@GetMapping("/test")
+	public String greet() {
+		return "myview";
+	}
+/*@GetMapping("/productform")
+public String getproductform()
+{
+	return "Add-product";
+	
+}*/
+	@GetMapping("/productform")
+	public String getproductform(m)
+@PostMapping("/saveproduct")
+public String saveproduct(@Valid Productmodel productmodel,BindingResult bindingResult,Model model) {
+	HashMap<String, String>validationerrors=new HashMap<String,String>();
+	if(bindingResult.hasErrors()) {
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
+			validationerrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		model.addAttribute( "validationerrors",validationerrors);
+		return "Add-product";
+	}
+
+	service.saveproductdetails(productmodel);
+	return "redirect:/getallproducts";
+}
+/*@PostMapping("/saveproduct")
+public String saveproduct(Productmodel productmodel)
+{
+	service.saveproductdetails(productmodel);
+	System.out.print(productmodel);
+	return "success";
+}*/
+@GetMapping("/getallproducts")
+public String getallproducts(Model model)
+{
+	List<Productentity> product=service.getallproducts();
+	model.addAttribute("Products", product);
+	return "product-list";
+}
+@GetMapping("/getserchform")
+public String getserchform(){
+	return "search.product";
+	
+}
+@PostMapping("/searchbyid")
+public String searchbyid(@RequestParam long id,Model model) {
+	
+	Productentity product = service.searchById(id);
+	model.addAttribute("product", product);
+	return "search.product";
+}
+@GetMapping("/delete/{id}")
+public String deleteproductbyid(@PathVariable long id) {
+	
+	service.deleteproductbyid(id);
+	
+	return "redirect:/getallproducts";
+}
+@GetMapping("/edit/{id}")
+public String editbyproductid(@PathVariable long id,Model model) {
+	
+	Productmodel productmodel= service.getproductbyid(id);
+	model.addAttribute("Productmodel",productmodel); 
+	model.addAttribute("id",id);
+	return "edit-product";
+}
+@PostMapping("/editbyproductid/{id}")
+public String updateproduct(@PathVariable long id,Productmodel productmodel) {
+	service.updateproduct(id,productmodel);
+	return "redirect:/getallproducts";
+	
+}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-12-26 14:54:58.809
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-26 14:54:58.810
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-12-26 14:54:59.324
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.sathya.springmvc.controller;
+
+import java.util.HashMap;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sathya.springmvc.entity.Productentity;
+import com.sathya.springmvc.model.Productmodel;
+import com.sathya.springmvc.service.Service;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class Testcontroller {
+	@Autowired
+	Service service;
+	
+	@GetMapping("/test")
+	public String greet() {
+		return "myview";
+	}
+/*@GetMapping("/productform")
+public String getproductform()
+{
+	return "Add-product";
+	
+}*/
+	@GetMapping("/productform")
+	public String getproductform(mo)
+@PostMapping("/saveproduct")
+public String saveproduct(@Valid Productmodel productmodel,BindingResult bindingResult,Model model) {
+	HashMap<String, String>validationerrors=new HashMap<String,String>();
+	if(bindingResult.hasErrors()) {
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
+			validationerrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		model.addAttribute( "validationerrors",validationerrors);
+		return "Add-product";
+	}
+
+	service.saveproductdetails(productmodel);
+	return "redirect:/getallproducts";
+}
+/*@PostMapping("/saveproduct")
+public String saveproduct(Productmodel productmodel)
+{
+	service.saveproductdetails(productmodel);
+	System.out.print(productmodel);
+	return "success";
+}*/
+@GetMapping("/getallproducts")
+public String getallproducts(Model model)
+{
+	List<Productentity> product=service.getallproducts();
+	model.addAttribute("Products", product);
+	return "product-list";
+}
+@GetMapping("/getserchform")
+public String getserchform(){
+	return "search.product";
+	
+}
+@PostMapping("/searchbyid")
+public String searchbyid(@RequestParam long id,Model model) {
+	
+	Productentity product = service.searchById(id);
+	model.addAttribute("product", product);
+	return "search.product";
+}
+@GetMapping("/delete/{id}")
+public String deleteproductbyid(@PathVariable long id) {
+	
+	service.deleteproductbyid(id);
+	
+	return "redirect:/getallproducts";
+}
+@GetMapping("/edit/{id}")
+public String editbyproductid(@PathVariable long id,Model model) {
+	
+	Productmodel productmodel= service.getproductbyid(id);
+	model.addAttribute("Productmodel",productmodel); 
+	model.addAttribute("id",id);
+	return "edit-product";
+}
+@PostMapping("/editbyproductid/{id}")
+public String updateproduct(@PathVariable long id,Productmodel productmodel) {
+	service.updateproduct(id,productmodel);
+	return "redirect:/getallproducts";
+	
+}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-12-26 14:54:59.326
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-26 14:54:59.327
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-12-26 14:55:02.106
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.sathya.springmvc.controller;
+
+import java.util.HashMap;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sathya.springmvc.entity.Productentity;
+import com.sathya.springmvc.model.Productmodel;
+import com.sathya.springmvc.service.Service;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class Testcontroller {
+	@Autowired
+	Service service;
+	
+	@GetMapping("/test")
+	public String greet() {
+		return "myview";
+	}
+/*@GetMapping("/productform")
+public String getproductform()
+{
+	return "Add-product";
+	
+}*/
+	@GetMapping("/productform")
+	public String getproductform(Model)
+@PostMapping("/saveproduct")
+public String saveproduct(@Valid Productmodel productmodel,BindingResult bindingResult,Model model) {
+	HashMap<String, String>validationerrors=new HashMap<String,String>();
+	if(bindingResult.hasErrors()) {
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
+			validationerrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		model.addAttribute( "validationerrors",validationerrors);
+		return "Add-product";
+	}
+
+	service.saveproductdetails(productmodel);
+	return "redirect:/getallproducts";
+}
+/*@PostMapping("/saveproduct")
+public String saveproduct(Productmodel productmodel)
+{
+	service.saveproductdetails(productmodel);
+	System.out.print(productmodel);
+	return "success";
+}*/
+@GetMapping("/getallproducts")
+public String getallproducts(Model model)
+{
+	List<Productentity> product=service.getallproducts();
+	model.addAttribute("Products", product);
+	return "product-list";
+}
+@GetMapping("/getserchform")
+public String getserchform(){
+	return "search.product";
+	
+}
+@PostMapping("/searchbyid")
+public String searchbyid(@RequestParam long id,Model model) {
+	
+	Productentity product = service.searchById(id);
+	model.addAttribute("product", product);
+	return "search.product";
+}
+@GetMapping("/delete/{id}")
+public String deleteproductbyid(@PathVariable long id) {
+	
+	service.deleteproductbyid(id);
+	
+	return "redirect:/getallproducts";
+}
+@GetMapping("/edit/{id}")
+public String editbyproductid(@PathVariable long id,Model model) {
+	
+	Productmodel productmodel= service.getproductbyid(id);
+	model.addAttribute("Productmodel",productmodel); 
+	model.addAttribute("id",id);
+	return "edit-product";
+}
+@PostMapping("/editbyproductid/{id}")
+public String updateproduct(@PathVariable long id,Productmodel productmodel) {
+	service.updateproduct(id,productmodel);
+	return "redirect:/getallproducts";
+	
+}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-12-26 14:55:02.107
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-26 14:55:02.108
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-12-26 14:55:02.623
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.sathya.springmvc.controller;
+
+import java.util.HashMap;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sathya.springmvc.entity.Productentity;
+import com.sathya.springmvc.model.Productmodel;
+import com.sathya.springmvc.service.Service;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class Testcontroller {
+	@Autowired
+	Service service;
+	
+	@GetMapping("/test")
+	public String greet() {
+		return "myview";
+	}
+/*@GetMapping("/productform")
+public String getproductform()
+{
+	return "Add-product";
+	
+}*/
+	@GetMapping("/productform")
+	public String getproductform(Model )
+@PostMapping("/saveproduct")
+public String saveproduct(@Valid Productmodel productmodel,BindingResult bindingResult,Model model) {
+	HashMap<String, String>validationerrors=new HashMap<String,String>();
+	if(bindingResult.hasErrors()) {
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
+			validationerrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		model.addAttribute( "validationerrors",validationerrors);
+		return "Add-product";
+	}
+
+	service.saveproductdetails(productmodel);
+	return "redirect:/getallproducts";
+}
+/*@PostMapping("/saveproduct")
+public String saveproduct(Productmodel productmodel)
+{
+	service.saveproductdetails(productmodel);
+	System.out.print(productmodel);
+	return "success";
+}*/
+@GetMapping("/getallproducts")
+public String getallproducts(Model model)
+{
+	List<Productentity> product=service.getallproducts();
+	model.addAttribute("Products", product);
+	return "product-list";
+}
+@GetMapping("/getserchform")
+public String getserchform(){
+	return "search.product";
+	
+}
+@PostMapping("/searchbyid")
+public String searchbyid(@RequestParam long id,Model model) {
+	
+	Productentity product = service.searchById(id);
+	model.addAttribute("product", product);
+	return "search.product";
+}
+@GetMapping("/delete/{id}")
+public String deleteproductbyid(@PathVariable long id) {
+	
+	service.deleteproductbyid(id);
+	
+	return "redirect:/getallproducts";
+}
+@GetMapping("/edit/{id}")
+public String editbyproductid(@PathVariable long id,Model model) {
+	
+	Productmodel productmodel= service.getproductbyid(id);
+	model.addAttribute("Productmodel",productmodel); 
+	model.addAttribute("id",id);
+	return "edit-product";
+}
+@PostMapping("/editbyproductid/{id}")
+public String updateproduct(@PathVariable long id,Productmodel productmodel) {
+	service.updateproduct(id,productmodel);
+	return "redirect:/getallproducts";
+	
+}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-12-26 14:55:02.624
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-26 14:55:02.625
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-12-26 14:55:03.192
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.sathya.springmvc.controller;
+
+import java.util.HashMap;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sathya.springmvc.entity.Productentity;
+import com.sathya.springmvc.model.Productmodel;
+import com.sathya.springmvc.service.Service;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class Testcontroller {
+	@Autowired
+	Service service;
+	
+	@GetMapping("/test")
+	public String greet() {
+		return "myview";
+	}
+/*@GetMapping("/productform")
+public String getproductform()
+{
+	return "Add-product";
+	
+}*/
+	@GetMapping("/productform")
+	public String getproductform(Model m)
+@PostMapping("/saveproduct")
+public String saveproduct(@Valid Productmodel productmodel,BindingResult bindingResult,Model model) {
+	HashMap<String, String>validationerrors=new HashMap<String,String>();
+	if(bindingResult.hasErrors()) {
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
+			validationerrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		model.addAttribute( "validationerrors",validationerrors);
+		return "Add-product";
+	}
+
+	service.saveproductdetails(productmodel);
+	return "redirect:/getallproducts";
+}
+/*@PostMapping("/saveproduct")
+public String saveproduct(Productmodel productmodel)
+{
+	service.saveproductdetails(productmodel);
+	System.out.print(productmodel);
+	return "success";
+}*/
+@GetMapping("/getallproducts")
+public String getallproducts(Model model)
+{
+	List<Productentity> product=service.getallproducts();
+	model.addAttribute("Products", product);
+	return "product-list";
+}
+@GetMapping("/getserchform")
+public String getserchform(){
+	return "search.product";
+	
+}
+@PostMapping("/searchbyid")
+public String searchbyid(@RequestParam long id,Model model) {
+	
+	Productentity product = service.searchById(id);
+	model.addAttribute("product", product);
+	return "search.product";
+}
+@GetMapping("/delete/{id}")
+public String deleteproductbyid(@PathVariable long id) {
+	
+	service.deleteproductbyid(id);
+	
+	return "redirect:/getallproducts";
+}
+@GetMapping("/edit/{id}")
+public String editbyproductid(@PathVariable long id,Model model) {
+	
+	Productmodel productmodel= service.getproductbyid(id);
+	model.addAttribute("Productmodel",productmodel); 
+	model.addAttribute("id",id);
+	return "edit-product";
+}
+@PostMapping("/editbyproductid/{id}")
+public String updateproduct(@PathVariable long id,Productmodel productmodel) {
+	service.updateproduct(id,productmodel);
+	return "redirect:/getallproducts";
+	
+}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model m);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-12-26 14:55:03.194
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model m);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-26 14:55:03.195
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model m);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-12-26 14:55:03.704
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.sathya.springmvc.controller;
+
+import java.util.HashMap;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sathya.springmvc.entity.Productentity;
+import com.sathya.springmvc.model.Productmodel;
+import com.sathya.springmvc.service.Service;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class Testcontroller {
+	@Autowired
+	Service service;
+	
+	@GetMapping("/test")
+	public String greet() {
+		return "myview";
+	}
+/*@GetMapping("/productform")
+public String getproductform()
+{
+	return "Add-product";
+	
+}*/
+	@GetMapping("/productform")
+	public String getproductform(Model mo)
+@PostMapping("/saveproduct")
+public String saveproduct(@Valid Productmodel productmodel,BindingResult bindingResult,Model model) {
+	HashMap<String, String>validationerrors=new HashMap<String,String>();
+	if(bindingResult.hasErrors()) {
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
+			validationerrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		model.addAttribute( "validationerrors",validationerrors);
+		return "Add-product";
+	}
+
+	service.saveproductdetails(productmodel);
+	return "redirect:/getallproducts";
+}
+/*@PostMapping("/saveproduct")
+public String saveproduct(Productmodel productmodel)
+{
+	service.saveproductdetails(productmodel);
+	System.out.print(productmodel);
+	return "success";
+}*/
+@GetMapping("/getallproducts")
+public String getallproducts(Model model)
+{
+	List<Productentity> product=service.getallproducts();
+	model.addAttribute("Products", product);
+	return "product-list";
+}
+@GetMapping("/getserchform")
+public String getserchform(){
+	return "search.product";
+	
+}
+@PostMapping("/searchbyid")
+public String searchbyid(@RequestParam long id,Model model) {
+	
+	Productentity product = service.searchById(id);
+	model.addAttribute("product", product);
+	return "search.product";
+}
+@GetMapping("/delete/{id}")
+public String deleteproductbyid(@PathVariable long id) {
+	
+	service.deleteproductbyid(id);
+	
+	return "redirect:/getallproducts";
+}
+@GetMapping("/edit/{id}")
+public String editbyproductid(@PathVariable long id,Model model) {
+	
+	Productmodel productmodel= service.getproductbyid(id);
+	model.addAttribute("Productmodel",productmodel); 
+	model.addAttribute("id",id);
+	return "edit-product";
+}
+@PostMapping("/editbyproductid/{id}")
+public String updateproduct(@PathVariable long id,Productmodel productmodel) {
+	service.updateproduct(id,productmodel);
+	return "redirect:/getallproducts";
+	
+}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model mo);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-12-26 14:55:03.705
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model mo);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-26 14:55:03.706
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model mo);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-12-26 14:55:05.381
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.sathya.springmvc.controller;
+
+import java.util.HashMap;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sathya.springmvc.entity.Productentity;
+import com.sathya.springmvc.model.Productmodel;
+import com.sathya.springmvc.service.Service;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class Testcontroller {
+	@Autowired
+	Service service;
+	
+	@GetMapping("/test")
+	public String greet() {
+		return "myview";
+	}
+/*@GetMapping("/productform")
+public String getproductform()
+{
+	return "Add-product";
+	
+}*/
+	@GetMapping("/productform")
+	public String getproductform(Model model)
+@PostMapping("/saveproduct")
+public String saveproduct(@Valid Productmodel productmodel,BindingResult bindingResult,Model model) {
+	HashMap<String, String>validationerrors=new HashMap<String,String>();
+	if(bindingResult.hasErrors()) {
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
+			validationerrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		model.addAttribute( "validationerrors",validationerrors);
+		return "Add-product";
+	}
+
+	service.saveproductdetails(productmodel);
+	return "redirect:/getallproducts";
+}
+/*@PostMapping("/saveproduct")
+public String saveproduct(Productmodel productmodel)
+{
+	service.saveproductdetails(productmodel);
+	System.out.print(productmodel);
+	return "success";
+}*/
+@GetMapping("/getallproducts")
+public String getallproducts(Model model)
+{
+	List<Productentity> product=service.getallproducts();
+	model.addAttribute("Products", product);
+	return "product-list";
+}
+@GetMapping("/getserchform")
+public String getserchform(){
+	return "search.product";
+	
+}
+@PostMapping("/searchbyid")
+public String searchbyid(@RequestParam long id,Model model) {
+	
+	Productentity product = service.searchById(id);
+	model.addAttribute("product", product);
+	return "search.product";
+}
+@GetMapping("/delete/{id}")
+public String deleteproductbyid(@PathVariable long id) {
+	
+	service.deleteproductbyid(id);
+	
+	return "redirect:/getallproducts";
+}
+@GetMapping("/edit/{id}")
+public String editbyproductid(@PathVariable long id,Model model) {
+	
+	Productmodel productmodel= service.getproductbyid(id);
+	model.addAttribute("Productmodel",productmodel); 
+	model.addAttribute("id",id);
+	return "edit-product";
+}
+@PostMapping("/editbyproductid/{id}")
+public String updateproduct(@PathVariable long id,Productmodel productmodel) {
+	service.updateproduct(id,productmodel);
+	return "redirect:/getallproducts";
+	
+}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model model);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-12-26 14:55:05.382
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model model);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-26 14:55:05.382
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model model);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-12-26 14:55:07.423
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.sathya.springmvc.controller;
+
+import java.util.HashMap;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sathya.springmvc.entity.Productentity;
+import com.sathya.springmvc.model.Productmodel;
+import com.sathya.springmvc.service.Service;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class Testcontroller {
+	@Autowired
+	Service service;
+	
+	@GetMapping("/test")
+	public String greet() {
+		return "myview";
+	}
+/*@GetMapping("/productform")
+public String getproductform()
+{
+	return "Add-product";
+	
+}*/
+	@GetMapping("/productform")
+	public String getproductform(Model model)
+	
+@PostMapping("/saveproduct")
+public String saveproduct(@Valid Productmodel productmodel,BindingResult bindingResult,Model model) {
+	HashMap<String, String>validationerrors=new HashMap<String,String>();
+	if(bindingResult.hasErrors()) {
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
+			validationerrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		model.addAttribute( "validationerrors",validationerrors);
+		return "Add-product";
+	}
+
+	service.saveproductdetails(productmodel);
+	return "redirect:/getallproducts";
+}
+/*@PostMapping("/saveproduct")
+public String saveproduct(Productmodel productmodel)
+{
+	service.saveproductdetails(productmodel);
+	System.out.print(productmodel);
+	return "success";
+}*/
+@GetMapping("/getallproducts")
+public String getallproducts(Model model)
+{
+	List<Productentity> product=service.getallproducts();
+	model.addAttribute("Products", product);
+	return "product-list";
+}
+@GetMapping("/getserchform")
+public String getserchform(){
+	return "search.product";
+	
+}
+@PostMapping("/searchbyid")
+public String searchbyid(@RequestParam long id,Model model) {
+	
+	Productentity product = service.searchById(id);
+	model.addAttribute("product", product);
+	return "search.product";
+}
+@GetMapping("/delete/{id}")
+public String deleteproductbyid(@PathVariable long id) {
+	
+	service.deleteproductbyid(id);
+	
+	return "redirect:/getallproducts";
+}
+@GetMapping("/edit/{id}")
+public String editbyproductid(@PathVariable long id,Model model) {
+	
+	Productmodel productmodel= service.getproductbyid(id);
+	model.addAttribute("Productmodel",productmodel); 
+	model.addAttribute("id",id);
+	return "edit-product";
+}
+@PostMapping("/editbyproductid/{id}")
+public String updateproduct(@PathVariable long id,Productmodel productmodel) {
+	service.updateproduct(id,productmodel);
+	return "redirect:/getallproducts";
+	
+}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model model);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-12-26 14:55:07.425
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model model);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-26 14:55:07.426
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 940 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("/productform") public String getproductform(Model model);
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:759)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:179)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3484)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1566)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:644)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:279)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1245)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1419)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SESSION 2024-12-26 14:45:54.996 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-26 14:45:58.160
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+!SESSION 2024-12-26 15:27:11.061 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-26 15:28:00.951
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-26 15:28:07.445
+!MESSAGE Logback config file: D:\SpringProject\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-12-26 15:28:08.652
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-26 15:28:08.653
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-12-26 15:28:09.436
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-26 15:28:09.436
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-26 15:28:21.294
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\spring software\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/SpringProject/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1735207101294
+-Dlanguageserver.hover-timeout=225
+-jar
+D:\spring software\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 15:28:21.294
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-26 15:28:21.477
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9752
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2024-12-26 15:28:23.109
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 15:28:27.730
+!MESSAGE Boot project ADDED: springbootMvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 15:28:27.732
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 15:28:27.736
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-26 15:28:27.745
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-26 15:28:27.747
+!MESSAGE Boot project ADDED: springbootMvcemp
+
+!ENTRY org.eclipse.buildship.core 2 0 2024-12-26 15:28:29.308
+!MESSAGE Could not load Gradle version information
+!STACK 0
+org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:167)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:111)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.UnknownHostException: services.gradle.org
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1252)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:164)
+	... 4 more
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-26 15:31:17.863
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-26 15:31:18.877
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-26 15:31:24.429
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-26 15:31:25.435
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-26 15:31:25.588
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:68)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5740)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5424)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1224)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1220)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1703)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4854)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4732)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3788)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-26 15:31:25.639
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:384)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1252)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:68)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5740)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5424)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1224)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1220)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1703)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4854)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4732)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3788)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-26 15:31:28.955
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-26 15:31:29.386
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
